@@ -44,16 +44,6 @@ void ciagi611::wypisz()
 		}
 }
 
-//int ciagi611::sprawdzenie(int x, int y)
-//{
-//    if (x < y)
-//        return sprawdzenie(y,x);
-//    if (y == 0)
-//        return x;
-//    return sprawdzenie(y,x%y);
-//}
-
-
 int koks = 0;
 int ciagi611::obliczanie()
 {
@@ -83,9 +73,9 @@ int ciagi611::obliczanie()
 			}
 		}            
 //	cout << koks << endl;
-	cout << "Najwieksza roznica liczb: " << max << endl;
+	
 	}
-		
+	cout << "Najwieksza roznica liczb: " << max << endl;
 }
 
 
